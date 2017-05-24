@@ -66,9 +66,10 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 */
 
-                if (0 == 0) {
+                if (true) {
                     Intent i = new Intent(LoginActivity.this, ItemsActivity.class);
                     startActivity(i);
+
                 }
                 else {
                     Toast.makeText(LoginActivity.this, "No User with such credentials!", Toast.LENGTH_SHORT).show();

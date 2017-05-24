@@ -10,6 +10,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.rza.exhackathonapp.R;
 import com.rza.exhackathonapp.adapter.ItemAdapter;
@@ -51,6 +52,7 @@ public class ItemsActivity extends AppCompatActivity {
                 Intent i = new Intent(ItemsActivity.this, AddNewItemActivity.class);
                 //dodati extra za mejl
                 startActivity(i);
+                Toast.makeText(ItemsActivity.this, "Importovanje sa kamere stvarno radi, probajte! :)", Toast.LENGTH_LONG).show();
             }
         });
 

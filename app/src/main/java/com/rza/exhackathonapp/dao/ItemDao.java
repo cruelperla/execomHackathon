@@ -18,10 +18,10 @@ import java.util.Date;
 public class ItemDao {
 
     public static ArrayList<Item> createItems() {
-        ArrayList<Item> items = new ArrayList<Item>();
+        ArrayList<Item> items = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
-            items.add(new Item("name", "desc","http://cdn.bgr.com/2012/11/android-icon.jpg?quality=98&strip=all", 23.23,
-                    "email"));
+            items.add(new Item("Item Name", "lorem ipsum","http://cdn.bgr.com/2012/11/android-icon.jpg?quality=98&strip=all", 23.23,
+                    "username"));
 
         }
         return items;
